@@ -1,0 +1,25 @@
+{
+  "_comment": "Default underwriting thresholds. Replace with the lender's credit policy. Ratios are percentages.",
+  "credit_score": {
+    "standard_min": 700,
+    "borderline_min": 650
+  },
+  "dti_max_pct": 50,
+  "dti_comfort_pct": 40,
+  "foir_max_pct": 55,
+  "credit_utilization_max_pct": 50,
+  "hard_enquiries_6m_max": 4,
+  "income_decline_flag_pct": 20,
+  "min_employment_months_salaried": 12,
+  "min_business_vintage_months": 24,
+  "ltv_max_pct": {
+    "home_loan": 80,
+    "loan_against_property": 60,
+    "auto_loan": 85,
+    "gold_loan": 75,
+    "default": 70
+  },
+  "auto_decision_max_loan_amount": 2500000,
+  "min_net_disposable_income": 15000,
+  "max_bounces_6m": 0
+}
